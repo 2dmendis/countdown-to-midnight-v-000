@@ -13,7 +13,7 @@ def countdown_with_sleep(seconds)
   seconds.to_i 
   while seconds > 0 
    countdown(number)
-   
+   sleep(1)
    seconds -=
  end 
 end 
