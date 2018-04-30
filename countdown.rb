@@ -1,5 +1,3 @@
-#write your code here
-
 def countdown(number)
   number.to_i 
   while number > 0 
